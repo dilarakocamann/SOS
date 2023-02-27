@@ -1,2 +1,2 @@
 # gdscYapayZekaTask
-The aim of the project is to design a game in which a player can compete with a computer. The game should be able to be played in the form of a user-computer or a computer-computer. This game, played on a game board, is also similar to the game SOS.
+Projenin amacı bir oyuncunun bilgisayarla rekabet edebileceği bir oyun tasarlamaktır. Oyun kullanıcı-bilgisayar ya da bilgisayar-bilgisayar şeklinde olarak oynanabilmelidir. Bir oyun tahtasında oynanan bu oyun SOS oyununa da benzer.
