@@ -105,7 +105,7 @@ while(leaveLoop == False):
     printGameBoard()
     numberPicked = int(input("\nChoose a number [1-9]: "))
     if(numberPicked >= 1 or numberPicked <= 9):
-      modifyArray(numberPicked, 'X')
+      modifyArray(numberPicked, 'A')
       possibleNumbers.remove(numberPicked)
     else:
       print("Invalid input. Please try again.")
@@ -117,7 +117,7 @@ while(leaveLoop == False):
       cpuChoice = random.choice(possibleNumbers)
       print("\nCpu choice: ", cpuChoice)
       if(cpuChoice in possibleNumbers):
-        modifyArray(cpuChoice, 'O')
+        modifyArray(cpuChoice, 'B')
         possibleNumbers.remove(cpuChoice)
         turnCounter += 1
         break
