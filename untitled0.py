@@ -1,7 +1,6 @@
 import random
 
-print("Welcome to Tic Tac Toe")
-print("----------------------")
+print("Welcome to ABA")
 
 possibleNumbers = [1,2,3,4,5,6,7,8,9]
 gameBoard = [[1,2,3], [4,5,6], [7,8,9]]
@@ -41,58 +40,58 @@ def modifyArray(num, turn):
 def checkForWinner(gameBoard):
   
   ### X axis
-  if(gameBoard[0][0] == 'X' and gameBoard[0][1] == 'X' and gameBoard[0][2] == 'X'):
-    print("X has won!")
-    return "X"
-  elif(gameBoard[0][0] == 'O' and gameBoard[0][1] == 'O' and gameBoard[0][2] == 'O'):
-    print("O has won!")
-    return "O"
-  elif(gameBoard[1][0] == 'X' and gameBoard[1][1] == 'X' and gameBoard[1][2] == 'X'):
-    print("X has won!")
-    return "X"
-  elif(gameBoard[1][0] == 'O' and gameBoard[1][1] == 'O' and gameBoard[1][2] == 'O'):
-    print("O has won!")
-    return "O"
-  elif(gameBoard[2][0] == 'X' and gameBoard[2][1] == 'X' and gameBoard[2][2] == 'X'):
-    print("X has won!")
-    return "X"
-  elif(gameBoard[2][0] == 'O' and gameBoard[2][1] == 'O' and gameBoard[2][2] == 'O'):
-    print("O has won!")
-    return "O"
+  if(gameBoard[0][0] == 'A' and gameBoard[0][1] == 'A' and gameBoard[0][2] == 'A'):
+    print("A has won!")
+    return "A"
+  elif(gameBoard[0][0] == 'B' and gameBoard[0][1] == 'B' and gameBoard[0][2] == 'B'):
+    print("B has won!")
+    return "B"
+  elif(gameBoard[1][0] == 'A' and gameBoard[1][1] == 'A' and gameBoard[1][2] == 'A'):
+    print("A has won!")
+    return "A"
+  elif(gameBoard[1][0] == 'B' and gameBoard[1][1] == 'B' and gameBoard[1][2] == 'B'):
+    print("B has won!")
+    return "B"
+  elif(gameBoard[2][0] == 'A' and gameBoard[2][1] == 'A' and gameBoard[2][2] == 'A'):
+    print("A has won!")
+    return "A"
+  elif(gameBoard[2][0] == 'B' and gameBoard[2][1] == 'B' and gameBoard[2][2] == 'B'):
+    print("B has won!")
+    return "B"
 
   ### Y axis
-  if(gameBoard[0][0] == 'X' and gameBoard[1][0] == 'X' and gameBoard[2][0] == 'X'):
-    print("X has won!")
-    return "X"
-  elif(gameBoard[0][0] == 'O' and gameBoard[1][0] == 'O' and gameBoard[2][0] == 'O'):
-    print("O has won!")
-    return "O"
-  elif(gameBoard[0][1] == 'X' and gameBoard[1][1] == 'X' and gameBoard[2][1] == 'X'):
-    print("X has won!")
-    return "X"
-  elif(gameBoard[0][1] == 'O' and gameBoard[1][1] == 'O' and gameBoard[2][1] == 'O'):
-    print("O has won!")
-    return "O"
-  elif(gameBoard[0][2] == 'X' and gameBoard[1][2] == 'X' and gameBoard[2][2] == 'X'):
-    print("X has won!")
-    return "X"
-  elif(gameBoard[0][2] == 'O' and gameBoard[1][2] == 'O' and gameBoard[2][2] == 'O'):
-    print("O has won!")
-    return "O"
+  if(gameBoard[0][0] == 'A' and gameBoard[1][0] == 'A' and gameBoard[2][0] == 'A'):
+    print("A has won!")
+    return "A"
+  elif(gameBoard[0][0] == 'B' and gameBoard[1][0] == 'B' and gameBoard[2][0] == 'B'):
+    print("B has won!")
+    return "B"
+  elif(gameBoard[0][1] == 'A' and gameBoard[1][1] == 'A' and gameBoard[2][1] == 'A'):
+    print("A has won!")
+    return "A"
+  elif(gameBoard[0][1] == 'B' and gameBoard[1][1] == 'B' and gameBoard[2][1] == 'B'):
+    print("B has won!")
+    return "B"
+  elif(gameBoard[0][2] == 'A' and gameBoard[1][2] == 'A' and gameBoard[2][2] == 'A'):
+    print("A has won!")
+    return "A"
+  elif(gameBoard[0][2] == 'B' and gameBoard[1][2] == 'B' and gameBoard[2][2] == 'B'):
+    print("B has won!")
+    return "B"
 
   ### Cross wins
-  elif(gameBoard[0][0] == 'X' and gameBoard[1][1] == 'X' and gameBoard[2][2] == 'X'):
-    print("X has won!")
-    return "X"
-  elif(gameBoard[0][0] == 'O' and gameBoard[1][1] == 'O' and gameBoard[2][2] == 'O'):
-    print("O has won!")  
-    return "O"
-  elif(gameBoard[0][2] == 'X' and gameBoard[1][1] == 'X' and gameBoard[2][0] == 'X'):
-    print("X has won!")  
-    return "X"
-  elif(gameBoard[0][2] == 'O' and gameBoard[1][1] == 'O' and gameBoard[2][0] == 'O'):
-    print("O has won!") 
-    return "O" 
+  elif(gameBoard[0][0] == 'A' and gameBoard[1][1] == 'A' and gameBoard[2][2] == 'A'):
+    print("A has won!")
+    return "A"
+  elif(gameBoard[0][0] == 'B' and gameBoard[1][1] == 'B' and gameBoard[2][2] == 'B'):
+    print("B has won!")  
+    return "B"
+  elif(gameBoard[0][2] == 'A' and gameBoard[1][1] == 'A' and gameBoard[2][0] == 'A'):
+    print("A has won!")  
+    return "A"
+  elif(gameBoard[0][2] == 'B' and gameBoard[1][1] == 'B' and gameBoard[2][0] == 'B'):
+    print("B has won!") 
+    return "B" 
   else:
     return "N"
   
