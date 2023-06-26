@@ -36,7 +36,6 @@ def modifyArray(num, turn):
   elif(num == 8):
     gameBoard[2][2] = turn
 
-### Define function to check for a winner
 def checkForWinner(gameBoard):
   
   ### X axis
@@ -100,7 +99,7 @@ turnCounter = 0
 
 while(leaveLoop == False):
          
-  ### It's the player turn
+  ### Player's turn
   if(turnCounter % 2 == 0):
     printGameBoard()
     numberPicked = int(input("\nChoose a number [1-9]: "))
@@ -111,7 +110,7 @@ while(leaveLoop == False):
       print("Invalid input. Please try again.")
     turnCounter += 1
          
-  ### It's the computer's turn
+  ### Computer's turn
   else:
     while(True):
       cpuChoice = random.choice(possibleNumbers)
